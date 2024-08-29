@@ -1,14 +1,14 @@
-Deep-Learning-state-classification
+# Deep-Learning-state-classification
 
-Introduction
+# Introduction
 This project focuses on fine-grained object state recognition, which is crucial for robotic cooking. Unlike object recognition, which identifies the type of object, state recognition classifies the state of the object (e.g., whole, sliced, chopped). The goal is to enable robots to perform manipulation tasks accurately by recognizing the state of cooking objects.
 
-Project Overview
+# Project Overview
 
-Goal
+# Goal
 Design a deep convolutional neural network to classify the state of a cooking object based on an image. For instance, given an image of a "sliced tomato" or "sliced bread", the network should output "sliced".
 
-Dataset
+# Dataset
 The dataset includes 9309 images of 17 cooking objects in 11 different states. It can be downloaded [here](https://drive.google.com/file/d/1HU0Z3X3OltW8oUlW_Kkqsz_6kA_ma2tX/view).
 
 Project Components
@@ -31,20 +31,3 @@ Project Components
 - Libraries: TensorFlow
 - Platform: No other programming languages or platforms are acceptable.
 
-
-## Instructions
-1. Clone the repository.
-
-   git clone <repository-url>
-
-2. Install required dependencies:
-
-   pip install -r requirements.txt
-
-3. Train the model:
-
-   python train.py
-
-4. Test the model:
-
-   python test.py
