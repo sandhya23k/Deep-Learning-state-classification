@@ -4,6 +4,7 @@ Introduction
 This project focuses on fine-grained object state recognition, which is crucial for robotic cooking. Unlike object recognition, which identifies the type of object, state recognition classifies the state of the object (e.g., whole, sliced, chopped). The goal is to enable robots to perform manipulation tasks accurately by recognizing the state of cooking objects.
 
 Project Overview
+
 Goal
 Design a deep convolutional neural network to classify the state of a cooking object based on an image. For instance, given an image of a "sliced tomato" or "sliced bread", the network should output "sliced".
 
